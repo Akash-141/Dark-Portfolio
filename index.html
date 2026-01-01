@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Akash Paul - Frontend Web Developer Portfolio showcasing web development projects, skills, and services.">
+    <meta name="keywords" content="web developer, frontend developer, portfolio, web design, UI/UX">
+    <meta name="author" content="Akash Paul">
+    <title>Akash Paul - Frontend Web Developer Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+</head>
+
+<body>
+    <!-- Home Section -->
+    <section id="home">
+        <!-- Navigation Bar -->
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <img src="images/logo.png" class="logo" alt="Akash Paul Logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-x cross" aria-label="Close menu"></i>
+                <i class="fa-solid fa-bars menu" aria-label="Open menu"></i>
+            </div>
+        </nav>
+
+        <div class="home">
+            <div class="container">
+                <!-- Hero Section -->
+                <div class="home-section">
+                    <div class="home-left">
+                        <h1>Hi, I'm <span>Akash Paul</span><br>Frontend Web Developer</h1>
+                        <a href="images/my-cv.pdf" download class="download-cv" aria-label="Download CV">
+                            Download CV
+                            <i class="fa-solid fa-cloud-arrow-down icons" aria-hidden="true"></i>
+                        </a>
+                        <div class="socials">
+                            <a href="#" aria-label="Facebook profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook social-icons" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-linkedin social-icons" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github social-icons" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <img src="images/user.png" alt="Akash Paul - Web Developer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="left-col">
+                        <img src="images/about.png" alt="About Akash Paul">
+                    </div>
+                    <div class="right-col">
+                        <h1 class="about-title">About Me</h1>
+                        <p class="about-text">
+                            I am a passionate Frontend Web Developer with expertise in creating responsive, user-friendly web applications. With a keen eye for design and a commitment to writing clean, efficient code, I transform ideas into engaging digital experiences. I specialize
+                            in modern web technologies and stay updated with the latest industry trends to deliver exceptional results.
+                        </p>
+
+                        <div class="about-tab-titles">
+                            <p class="about-tab-links active-link" onclick="openTab('skills')" tabindex="0">Skills</p>
+                            <p class="about-tab-links" onclick="openTab('experience')" tabindex="0">Experience</p>
+                            <p class="about-tab-links" onclick="openTab('education')" tabindex="0">Education</p>
+                        </div>
+                        <div class="about-tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Building modern, responsive web applications</li>
+                                <li><span>Web Design</span><br>Creating beautiful and functional interfaces</li>
+                                <li><span>UI/UX</span><br>Designing intuitive user experiences</li>
+                            </ul>
+                        </div>
+                        <div class="about-tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Freelance Web Developer</li>
+                                <li><span>2022 - 2023</span><br>Worked in a local business</li>
+                                <li><span>2020 - 2022</span><br>Graphics Designer</li>
+                            </ul>
+                        </div>
+                        <div class="about-tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Studying Computer Science and Engineering</li>
+                                <li><span>2018 - 2020</span><br>Govt. M.M. College, Jashore</li>
+                                <li><span>2013 - 2018</span><br>Border Guard School, Jashore</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services">
+            <div class="container">
+                <h1 class="about-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <h2>Web Development</h2>
+                        <p>Creating modern, responsive websites and web applications using the latest technologies. I focus on clean code, performance optimization, and cross-browser compatibility to deliver exceptional digital solutions.</p>
+                        <a href="#contact">Learn More...</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-web-awesome" aria-hidden="true"></i>
+                        <h2>Web Design</h2>
+                        <p>Crafting beautiful, user-centric designs that captivate and engage. From wireframes to final mockups, I create visually stunning interfaces that enhance user experience and reflect your brand identity.</p>
+                        <a href="#contact">Learn More...</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Designing intuitive user interfaces and seamless user experiences. I combine aesthetics with functionality to create digital products that users love, ensuring accessibility and usability at every touchpoint.</p>
+                        <a href="#contact">Learn More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project">
+            <div class="container">
+                <h1 class="about-title">My Works</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work01.png" alt="UsabilityHub Clone Project">
+                        <div class="layer">
+                            <h3>Clone of UsabilityHub.com</h3>
+                            <p>This site is a clone of UsabilityHub, showcasing my skills in HTML and CSS. It was my first web site building project, demonstrating responsive design and attention to detail.</p>
+                            <a href="#" aria-label="View project" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-link" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work02.png" alt="Portfolio Website Project">
+                        <div class="layer">
+                            <h3>My First Portfolio</h3>
+                            <p>This is my first portfolio website featuring a sleek black theme. Built with HTML, CSS, and JavaScript, it showcases my journey as a web developer and includes interactive elements.</p>
+                            <a href="#" aria-label="View project" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-link" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="about-title">Contact Me</h1>
+                        <p>
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:akash17.paul@gmail.com" class="contact-link">akash17.paul@gmail.com</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-square-phone" aria-hidden="true"></i>
+                            <a href="tel:+8801927801644" class="contact-link">+8801927-801644</a>
+                        </p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" aria-label="Contact form">
+                            <input type="text" name="Name" placeholder="Your name" required aria-label="Your name">
+                            <input type="email" name="Email" placeholder="Your Email" required aria-label="Your email">
+                            <textarea name="Message" rows="6" placeholder="Your Message" required aria-label="Your message"></textarea>
+                            <button type="submit" class="submit-btn" aria-label="Submit form">Submit</button>
+                        </form>
+                        <span id="msg" role="status" aria-live="polite"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2026 Akash Paul. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzoN8RBWH0TXr4QjNU312mKlUcqwibr-YDiYIG-L3VTJKyWXBWI1JFHz2dYeuNr78jZlw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
